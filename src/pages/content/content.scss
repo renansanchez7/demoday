@@ -1,0 +1,16 @@
+page-content {
+    .top{
+        display: flex;
+
+        ion-searchbar{
+            width: 70%;
+            background: none;
+            border: 1px solid black;
+        }
+
+        button{
+            width: 20%;
+            margin-left: 10%;
+        }
+    }
+}
