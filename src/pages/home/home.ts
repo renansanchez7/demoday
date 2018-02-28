@@ -22,5 +22,5 @@ export class HomePage {
   irParaCadastro(){
     this.navCtrl.push(CadastroPage);
   }
-
+ 
 }

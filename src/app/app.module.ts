@@ -11,6 +11,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { ContentPageModule } from '../pages/content/content.module';
 import { ItemPageModule } from '../pages/item/item.module';
 import { CadastroPageModule } from '../pages/cadastro/cadastro.module';
+import { NewcontentPageModule } from '../pages/newcontent/newcontent.module';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CadastroPageModule } from '../pages/cadastro/cadastro.module';
     IonicModule.forRoot(MyApp),
     ContentPageModule,
     ItemPageModule,
-    CadastroPageModule
+    CadastroPageModule,
+    NewcontentPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

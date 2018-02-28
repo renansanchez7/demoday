@@ -7,7 +7,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>content</ion-title>
+    <ion-title>Bem-Vindo Ao Natureza Compartilhada!</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -16,7 +16,7 @@
 <ion-content padding>
   <div class="top">
       <ion-searchbar></ion-searchbar>
-      <button ion-button>New</button>  
+      <button ion-button (click)="irParaNewContent()">Anunciar</button>  
   </div>
   <ion-card (click)="irParaItem()">
     <img src="../../assets/imgs/banana.jpg"/>
@@ -25,10 +25,13 @@
         Banana
         </ion-card-title>
       <p>
-        NOME DO USUARIO
+        Nome do Usuário
       </p>  
       <p>
-        PRECO
+        Preço
+      </p>
+      <p>
+        Localização
       </p>
     </ion-card-content>
   </ion-card>

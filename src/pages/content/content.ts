@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { ItemPage } from '../item/item';
+import { NewcontentPage } from '../newcontent/newcontent';
+
 
 /**
  * Generated class for the ContentPage page.
@@ -25,6 +27,10 @@ export class ContentPage {
 
   irParaItem(){
     this.navCtrl.push(ItemPage);
+  }
+
+  irParaNewContent(){
+    this.navCtrl.push(NewcontentPage);
   }
 
 }
